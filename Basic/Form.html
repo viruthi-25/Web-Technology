@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<title>Form</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div id="top">
+</div>
+</br>
+<div id="top1">
+</div>
+<form action="/action_page.php" autocomplete="on">
+</br>
+<label>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+<input type="text" required></br>
+</br>
+<label>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+  <input type="email" id="email" name="email" placeholder="@mepcoeng.ac.in"><br>
+ </br>
+<label>Address &nbsp;&nbsp;&nbsp;&nbsp;: </label><br><br>
+<textarea cols="40" rows="5" value="address"></textarea><br>
+</br>
+<br>
+
+<label>Phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+
+<input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+<br><br>
+<label>Gender :
+</label><br>
+<input type="radio" name="gender"/> Male
+<input type="radio" name="gender"/> Female
+<input type="radio" name="gender"/> Other
+<br>
+<br>
+<label>
+Competitions:
+</label>
+<br>    <br>
+<input type="checkbox" name="p"> Essay Writing  &nbsp;&nbsp;&nbsp;
+<input type="checkbox" name="q"> Elocution    &nbsp;&nbsp;&nbsp;
+<input type="checkbox" name="r"> Dance  &nbsp;&nbsp;&nbsp;
+<input type="checkbox" name="s"> Singing
+<br>
+<br>
+
+<label>Search &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+<input type="search" placeholder="search query"></br>
+</br>
+<label>Range</label>
+<input type="range" id="points" name="points" min="0" max="10">
+<br><br>
+</form>
+
+<button type="submit" form="form" value="Submit">Submit</button>
+
+</body>
+</html
