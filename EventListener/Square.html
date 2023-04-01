@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<h2>Square </h2>
+
+<div onmousedown="WhichButton(event)" id="e2" style="border:10px solid black; border-color:pink;padding:20px;width:1.5%">
+
+<p id="demo"></p>
+
+<script>
+function WhichButton(event) {
+ let text =event.button;
+  if(text=="2")
+  {
+document.getElementById("e2").style.padding = "100px";
+document.getElementById("e2").style.border-color = "10px solid blue";
+<p id="1"  style="border:10px solid black; border-color:pink;padding:20px;width:1.5%"></p>
+
+}
+else
+{
+document.getElementById("e2").style.padding = "10px";
+
+<p  style="border:10px solid black; border-color:pink;padding:40px;width:1.5%"></p>
+
+document.getElementById("e2").style.border = "10px solid red";
+}
+}
+</script>
+</body>
+</html>
